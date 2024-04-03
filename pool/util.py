@@ -18,6 +18,7 @@ def error_dict(code: PoolErrorCode, message: str):
 
 @dataclass
 class RequestMetadata:
+    
     """
     HTTP-related metadata passed with HTTP requests
     """
